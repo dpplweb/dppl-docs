@@ -1,0 +1,4 @@
+name: DPPL Docs
+markdown: redcarpet
+pygments: true
+baseurl: ''
