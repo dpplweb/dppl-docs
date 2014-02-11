@@ -2,3 +2,25 @@ name: DPPL Docs
 markdown: redcarpet
 pygments: true
 baseurl: ''
+sitemap:
+    - page: 
+        - url: home
+        - name: Home
+    - page:
+        - url: blog-posts
+        - name: Blog Posts
+    - page:
+        - url: homepage
+        - name:  Homepage
+    - page:
+        - url: events
+        - name: Events
+    - page:
+        - url: links
+        - name: Links 
+    - page:
+        - url: page-editor
+        - name: Page Editor
+    - page:
+        - url: glossary
+        - name: Glossary
