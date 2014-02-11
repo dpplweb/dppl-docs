@@ -1,6 +1,7 @@
 ---
-layout: post
-title: Page Editor
+layout: page
+title: Page editor
+permalink: /
 ---
 Here is some basic information about using the editing tools on the new site.
 
