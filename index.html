@@ -5,10 +5,29 @@ permalink: /
 ---
 
 <div id="home">
-  <h1>Documentation</h1>
-  <ul class="pages">
-    {% for p in site.pages %}
-      <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <h1>Documentation</h1>
+    <h2>Background & principle</h2>
+    <ul class="pages">
+        <li><a href="{{base_url}}/html-elements/">HTML Elements</a></li>
+        <li><a href="{{base_url}}/links/">Links</a></li>
+        <li><a href="{{base_url}}">Images</a></li>
+        <li><a href="{{base_url}}">Style guide</a></li>
+    </ul>
+    <h2>Pages & blog posts</h2>
+    <ul class="pages">
+        <li><a href="{{base_url}}/pages/">Pages</a></li>
+        <li><a href="{{base_url}}/pages/intruders/">Intruders</a></li>
+        <li><a href="{{base_url}}/blog-posts/">Blog posts</a></li>
+    </ul>
+    <h2>Other channels</h2>
+    <ul class="pages">
+        <li><a href="{{base_url}}/homepage/">Homepage</a></li>
+        <li><a href="{{base_url}}/resources/">Resources</a></li>
+        <li><a href="{{base_url}}/events/">Events</a></li>
+    </ul>
+    <h2>Help</h2>
+    <ul class="pages">
+        <li><a href="{{base_url}}/more-help/">More help</a></li>
+        <li><a href="{{base_url}}/glossary/">Glossary</a></li>
+    </ul>
 </div>
