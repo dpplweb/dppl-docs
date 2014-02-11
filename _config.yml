@@ -1,7 +1,7 @@
 name: DPPL Docs
 markdown: redcarpet
 pygments: true
-baseurl: '/dppl-docs'
+base_url: '/dppl-docs'
 sitemap:
     - page: 
         - url: home
