@@ -6,6 +6,8 @@
 
 /* Global Reset */
 
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
 header, footer, section, article{display: block;}
 
 html, body { height: 100%; margin: 0; padding: 0;}
@@ -39,32 +41,20 @@ a:hover   { color: red; }
 #site-index{float: left; width: 66%; margin-right: 4%;}
 #site-updates{float: left; width: 30%;}
 
-.posts-header{text-transform: uppercase;}
+.pages-header{text-transform: uppercase;}
 
-ul.posts, ul.updates{
+ul.pages, ul.updates{
   list-style-type: none;
   margin-bottom: 2em;
   padding: 0;
   overflow: hidden;
 }
 
-ul.posts li {
+ul.pages li {
   line-height: 2em;
   padding: 0;
   margin-right: 1em;
 }
-
-#home ul.posts li{
-  display: block;
-  float: left;}
-
-ul.updates > li{
-  margin-bottom: 4px;
-  padding: 4px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.update-time{display: block; color: #ccc;}
 
 /*****************************************************************************/
 /*
@@ -107,41 +97,54 @@ footer {
 
 /*****************************************************************************/
 /*
-/* Posts
+/* Pages
 /*
 /*****************************************************************************/
 
 /* standard */
 
-.post-header{font-size: 20px;}
+.page-header{font-size: 20px;}
 
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+.page h2{margin: 1.5em 0 .5em 0; padding-top: 1em; border-top: 1px solid #ddd;}
+.page h2:first-child{padding-top: 0; border-top: 0;}
+.page h3, .page h4{margin: 1.25em 0 .25em 0;}
+
+.page blockquote, .page .highlight > pre{
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #f0f0f0;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
+.page blockquote{padding: .25em 2em;   border-left: 6px solid #aaa;}
+.page .highlight > pre{padding: 1em 2em;}
 
-.post code {
+.page code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f0f0f0;
   padding: 0 .2em;
 }
 
-.post pre code {
+.page pre code {
   border: none;
 }
 
 /* terminal */
-.post pre.terminal {
+.page pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-.post pre.terminal code {
+.page pre.terminal code {
   background-color: #333;
+}
+
+/*print css*/
+
+@media print{
+  @page {margin: 1cm 1.5cm;}
+  .site-header{padding: 0; background-color: #fff; border-bottom: 1px solid #000;}
+  .content{width: 100%; margin: 0;}
+  .page blockquote {background-color: #fff; border-right: 1px solid #aaa; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;}
+
 }
