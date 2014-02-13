@@ -43,8 +43,11 @@ The basic workflow for updating a page on the site is this:
 2. Update the page that needs work
 3. Preview your work
 4. Submit for approval
+5. Send a email to publishers outlining the changes
 
-Once a page is submitted for approval, you won't be able to make changes to it. If you decide to edit it, the page comes out of the approval queue until you resubmit. Site publishers will get a notification when you submit the page and will review the update.
+Once a page is submitted for approval, you won't be able to make changes to it. If you decide to edit it, the page comes out of the approval queue until you resubmit. 
+
+Site publishers will get a notification when you submit the page and will review the update. The follow up email will help the publishers understand what's been changed on the page.
 
 ## Updating pages
 
@@ -70,7 +73,7 @@ Once you’ve made your changes, you have a few options:
 - Save and close: Saves the page as a draft and closes it
 - Submit for approval: Alerts site publishers that a page needs to be published.
 
-When the page is undergoing review, it is not available to edit, unless you want to reopen it and create a new draft.
+When the page is undergoing review, it is not available to edit, unless you want to reopen it and create a new draft. Don't forget to send a 
 
 *Please understand that the work you submit is subject to review and edit. I’ll strive to not overly edit content without consulting you, but some silent corrections may be made, particularly when it comes to HTML markup and formatting.*
 
