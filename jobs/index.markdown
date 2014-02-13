@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog posts
+title: Jobs
 permalink: /
 readers: [publishers, editors plus]
 ---
