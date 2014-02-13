@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calendar
-permalink: /
+permalink: /calendar/
 readers: [publishers, editors, bloggers]
 ---
 
