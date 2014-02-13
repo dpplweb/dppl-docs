@@ -70,7 +70,19 @@ For duplicate events, do the following:
 
 ## Calendar import
 
-No events are created in Expression Engine — instead, they’re imported from Evanced, nightly, via a cronjob, which executes a DataGrab command.
+No events are created in Expression Engine — instead, they’re imported from Evanced via a cronjob, which executes a DataGrab command.
+
+There are two types of cronjobs that run:
+
+- Nightly import of next 300 events
+- Daily import of today's and tomorrow's events
+
+They are set to run on the following schedule:
+
+- Nightly runs at 2 a.m.
+- Daily runs at 11:30, 3:30, and 7:30
+
+> **Note:** When you view the crontab through SSH on the server, the times are listed in GMT time. So, to get a job to run at 2 a.m. Central Time, it is set to run at 8 a.m. GMT. Capiche?
 
 DataGrab reads the a custom version of the Evanced XML feed of the next 300 events (nb: this isn’t proper RSS, it’s just XML), and for every new `<item>`, it’ll create a new entry in the Event channel. For extant entries, it’ll update the entry with any data that’s been changed in the XML feed. 
 
