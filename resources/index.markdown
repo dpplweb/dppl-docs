@@ -32,11 +32,21 @@ There are a few things to note:
 
 ## Deleting a resource
 
+Before you delete resource, I would recommend closing it first:
+
+1. Find the resource to edit.
+2. Open it. 
+3. Change the status 
+
 1. Repeat the steps above for adding/editing a resource. Be sure to click on "Edit"
 2. Search for the resource.
 3. Click the checkmark to the far right.
 4. Choose "Delete" from the dropdown at the bottom right of the list.
 5. Click on Submit
+
+## Editing a subject page
+
+### Adding links to the footer
 
 ## Creating a new subject page
 
