@@ -46,6 +46,17 @@ There are a few requirements for the hero image:
 
 For the best results, it is a good idea to start with an image that is actually 2x the size (2800 x ). From that, the website create three versions of the image for desktop, tablet, and smartphone sizes. 
 
+When you are naming hero images, please observe these naming conventions:
+
+- Lower case 
+- Space or hyphens in between the parts (I think hyphens are best for images)
+- More descriptive file names are better than less descriptive
+- Pin "hero" to the end of the file name too
+
+Here's an example of shiny file name:
+
+    adult-winter-reading-club-hero.jpg
+
 ### Updating the feature
 
 1. Log in with a publisher account.
