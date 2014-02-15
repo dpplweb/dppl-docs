@@ -50,9 +50,15 @@ But you think they’re not spaced properly so you do this:
 
 What you have done is actually added an empty paragraph between the two paragraphs. In HTML terms:
 
-    <p>I like rainy days.</p>
-    <p></p>`
-    <p>I like snowy days.</p>
+<div class="html">
+<pre>
+<code>
+    &lt;p&gt;I like rainy days.&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;I like snowy days.&lt;/p&gt;
+</code>
+</pre>
+</div>
 
 You don’t need to do this. The website will add the proper amount of spacing between paragraphs. The more of these empty element that get added on to a page to bigger and easier to mess up they become.
 
