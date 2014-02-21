@@ -159,3 +159,11 @@ When the default view loads, a lot of extra things happen:
 The JSON object that returns the data makes use of a very straightforward plugin that just returns data as structured JSON instead of text.
 
 It’s worth noting that there’s a Solspace module out there for improving Calendar functionality, but I have no idea how much of the stuff I wrote is covered by it. Worth looking into in the future.
+
+## Miscellaneous
+
+### Toggle blurbs
+
+If you want to toggle the program blurbs on the calendar, just drag this bookmarklet up to your browser:
+
+<a class="button" href="javascript:(function(){ var blurbs = document.getElementsByClassName('blurb-text'); for (i=0; i<blurbs.length; i++){ if (blurbs[i].style.display == 'none'){ blurbs[i].style.display = 'block'; } else{ blurbs[i].style.display = 'none'; } }})();">Blurbs Toggle</a>
