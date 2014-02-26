@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publishers' Checklist
-permalink: /
+permalink: /publishers/
 readers: [publishers, editors]
 ---
 
