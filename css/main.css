@@ -21,7 +21,7 @@ body {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-pre, code{font-family: inherit;}
+pre, code{font-family: inherit; word-wrap: break-word;}
 
 
 hr{
