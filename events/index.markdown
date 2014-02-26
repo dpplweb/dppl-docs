@@ -39,35 +39,6 @@ Once you have chosen which type of category to edit, you can do a number of thin
 
 Just remember that anything that is listed under public (at least with the event types) will be visible on the website.
 
-## Deleting events
-If you need to delete an event from Evanced, there are few steps that you need to take to make sure that everything works the way it should.
-
-1. Write down the Evanced ID number for the event that you are deleting. (Look at the URL in Evanced, it’s whatever comes after ID=#####)
-2. If you are creating a new event, go ahead and create that one. Write down the Evanced ID number for the new event.
-3. Delete the event from Evanced.
-4. Send an email to Brodie or Heather, send the following info:
-    - Event title
-    - Date
-    - Evanced ID number(s)
-
-### For Publishers
-
-Deleted events need to be either removed or updated on the website too.
-
-1. Go to Structure, click on “Edit” next to the calendar.
-2. Search for the event.
-3. Double check the date.
-4. Select the item with the checkbox on the right.
-
-For duplicate events, do the following:
-
-1. Open the event.
-2. Double check the ID number. Make sure it matches the one that needs to be deleted.
-3. Close the event form.
-4. Select the event and delete it.
-
-> **Tip**: The site’s internal ID number is different from the Evanced ID number mentioned above.
-
 ## Calendar import
 
 No events are created in Expression Engine — instead, they’re imported from Evanced via a cronjob, which executes a DataGrab command.
