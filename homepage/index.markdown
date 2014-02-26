@@ -71,8 +71,6 @@ From here, you can:
 - Edit the first entry with the new text and image you have.
 - Click on the plus sign button to add a new row, then click and drag the rows in a new order.
 
-> **Remember**: To make the arrow appear after the link, type `&rarr;`
-
 ## Sub-features
 
 Sub-features are edited a little differently. You don't go the Homepage to edit them. Instead, they are available under Assets. 
