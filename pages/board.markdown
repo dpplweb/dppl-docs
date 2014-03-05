@@ -14,6 +14,17 @@ Information about the board can be found under the About section of the website.
 
 The Board of Trustees page contains basic info about board members and meeting announcements. The Board meetings page contains links to downloadable versions of minutes, financials, etc.
 
+## Workflow
+
+Here is the basic workflow that needs to be followed each month after a board meeting:
+
+- Update announcment intruder and remove Download button.
+- Upload and add links for approved minutes and financials.
+
+Then before a board meeting:
+
+- Upload the upcoming agenda and add a download button to the intruder.
+
 ## Updating the meeting announcement
 
 We are using an intruder on the Board page to announce upcoming meetings. To update the intruder, follow these steps:
@@ -23,6 +34,7 @@ We are using an intruder on the Board page to announce upcoming meetings. To upd
 3. Open the page.
 4. Scroll down until you find the matrix containing the intuder.
 5. Update the information about the next meeting in the Content box.
+6. Remove the Download the Agenda button and link from the matrix.
 
 ### Adding an agenda
 
@@ -90,7 +102,7 @@ So an example would be:
 
     Board Agenda 2014-03.pdf
 
-Note that there is a hyphen in between the year and the month.
+Note that there is a hyphen in between the year and the month. When the file is upload the the site, the spaces are replaced by underscores. You don't need to insert them yourself.
 
 ### Vimeo uploads
 
