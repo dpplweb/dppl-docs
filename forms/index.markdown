@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Open pages
+title: Forms
 permalink: /
 readers: [publishers, admin]
+---
 
 ## Overview
 
