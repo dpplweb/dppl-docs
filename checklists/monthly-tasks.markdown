@@ -21,7 +21,3 @@ This is a basic checklist of things that need to be updated on the site on a mon
 - Update the board announcement intuder with agenda (before meeting)
 - Update board announcement intruder with next meeting info (after meeting)
 - Upload approved board minutes and financials
-
-## End of the month
-
-- Remove backups from last month
