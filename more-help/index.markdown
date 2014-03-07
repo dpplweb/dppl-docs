@@ -5,10 +5,17 @@ permalink: /
 readers: [publishers, editors, bloggers]
 ---
 
-## Style & writing
+## Editing the docs
 
-Good calls to action: [http://blog.crazyegg.com/2013/07/24/call-to-action-examples/](http://blog.crazyegg.com/2013/07/24/call-to-action-examples/)
+It's easy! Everything is written in Markdown. You can access the files through [Prose.io](http://prose.io)
 
-## Images
+Login with the Github account we used for the content creation process and get to work!
 
-Using images without permission: [http://www.blogher.com/bloggers-beware-you-can-get-sued-using-photos-your-blog-my-story](http://www.blogher.com/bloggers-beware-you-can-get-sued-using-photos-your-blog-my-story_)
+## ExpressionEngine
+
+We have Ryan Irelan's *ExpressionEngine 2: A quick-start guide* in the Professional Development collection.
+
+EllisLab's EE help is pretty good [http://ellislab.com/support](http://ellislab.com/expressionengine/user-guide/).
+
+
+There is a StackExchange section for ExpressionEngine too [http://expressionengine.stackexchange.com/](http://expressionengine.stackexchange.com/).

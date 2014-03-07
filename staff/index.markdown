@@ -9,6 +9,8 @@ readers: [publishers]
 
 We keep information about staff separate from member accounts. So, whenever someone appears on the site, they have an entry in the Staff channel. We'll look at adding someone to the staff channel, removing them, etc.
 
+Info from the staff channel appears on blog posts, managed by on pages, and the staff page.
+
 ## Staff channel fields
 
 The staff channel contains the following fields:
@@ -47,6 +49,10 @@ Images are best when taken in bright places. The backgrounds should be blurred o
 6. Select the appropriate categories for the person.
 7. Submit to save.
 
+### Which categories do I use?
+
+
+
 ## Removing a staff member
 
 There are two things to account for when someone leaves that dictates what we do with their staff profile:
@@ -58,6 +64,8 @@ If the answer is "yes", then **do not** delete their entry in the Staff channel.
 If the answer is "no", then they can be deleted.
 
 > **Remember:** Editing or deleting their Staff channel entry has nothing to do with their actual member login. Those should always be removed after a person stops working at the library.
+
+The first thing to do is to update the pages that they manage.
 
 To delete their entry, do the following:
 

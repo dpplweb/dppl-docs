@@ -54,3 +54,27 @@ Ever so often, the BetterWorkflow module doesn't clean up after itself as well a
 9. Click on Delete for the row.
 
 This will clear the status. Now you need to go back to the site and remove the post (or do whatever you planned to do with it).
+
+## Backups
+
+The site is automatically backup up using three methods:
+
+- An export of the entire SQL database, via cronjob, stored on the Webfaction server
+- An export of the enitre database, along with a copy of all the files, in a tarball file, executed by SafeHarbor, stored on the Webfaction server.
+- A copy of the same SafeHarbor tarball, stored on S3.
+
+### Cleaning up backups
+
+If left to their own devices, the backups would pile up, which isn't a good idea. There are two things that clean up backups:
+
+I have created a cronjob that runs every Sunday that removes the any backup that is 21 days or older from the site. The cronjob runs a simple shell script called cleanbackups.sh.
+
+I have also created an Amazon s3 Lifecycle rule that removes backups older than 21 days.
+
+## Removing a staff person
+
+1. If they manage pages on the site, update each page with a new page manager.
+2. Update the staff channel (see the Staff channel page for info)
+3. Remove the user account
+
+A quick note on removing the user account. It might be a good idea to wait until a replacement comes on board to remove the member account. It will be much easier to transfer ownership if the old account still exists.

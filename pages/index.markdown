@@ -43,7 +43,7 @@ The basic workflow for updating a page on the site is this:
 2. Update the page that needs work
 3. Preview your work
 4. Submit for approval
-5. Send a email to publishers outlining the changes
+5. Send a email to website [at] dppl [dot] org outlining the changes
 
 Once a page is submitted for approval, you won't be able to make changes to it. If you decide to edit it, the page comes out of the approval queue until you resubmit. 
 
@@ -73,7 +73,7 @@ Once you’ve made your changes, you have a few options:
 - Save and close: Saves the page as a draft and closes it
 - Submit for approval: Alerts site publishers that a page needs to be published.
 
-When the page is undergoing review, it is not available to edit, unless you want to reopen it and create a new draft. Don't forget to send a 
+When the page is undergoing review, it is not available to edit, unless you want to reopen it and create a new draft. Don't forget to send a follow up email to website [at] dppl [dot] org outlining the changes you made (brief is fine).
 
 *Please understand that the work you submit is subject to review and edit. I’ll strive to not overly edit content without consulting you, but some silent corrections may be made, particularly when it comes to HTML markup and formatting.*
 
@@ -85,3 +85,14 @@ If you make substantial changes to the page (and have consulted with me), then b
 2. Leave the title field blank (it defaults to using the page title, which we want)
 3. Check the Description and update if necessary.
 4. Submit changes for approval.
+
+## Adding pages
+
+Publishers have to add pages.
+
+1. Log in to site as publisher.
+2. From Structure go to the section of the where you want to add a page.
+3. Click on "Add Child Page"
+4. Select which channel to add the page to.
+5. Create basic content for the page.
+6. Update the sitemap in Google Drive with the new page.
