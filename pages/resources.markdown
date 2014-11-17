@@ -1,4 +1,4 @@
-##Editing Resources Pages
+##Editing Resources Subject Pages
 
 Resources pages are hybrid pages; as subject categories are assigned to a particular resource, the CMS will automatically display that resource on its respective subject page(s), but page managers can add additional resources to a "Try these websites too" block as well as use the Intruder feature to place highlighted content on the page. Below are instructions on how these sections are managed. Please keep in mind as you are adding content to a page that as lists of items get longer, it becomes more difficult for a person to read and process the list, so any additional content added to a Resources page should only supplement gaps in coverage through our subscribed resources.
 
