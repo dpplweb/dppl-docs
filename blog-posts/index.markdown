@@ -69,7 +69,6 @@ The extended entry field holds the rest of your post. It's worth pointing out th
 
 Before you start writing (especially if this is your first post for the new blog), be sure to review the following pages in the docs:
 
-- [Content strategy](/content-strategy/)
 - [Page editor](/page-editor/)
 - [Style guide](/style-guide/)
 
